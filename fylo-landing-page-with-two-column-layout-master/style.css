@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    width: 12.5vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+
+nav {
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100%;
+    text-align: right;
+    height: 12vw;
+    color: hsl(238, 22%, 44%);
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    font-weight: 200;
+    font-size: 1.3vw;
+}
+
+li {
+    cursor: pointer;
+    margin-left: 5vw;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container1 {
+    font-size: 1.3vw;
+    margin-top: 5vw;
+    width: 40vw;
+    height: 20vw;  
+    margin-left: 5vw;
+}
+
+.description-1 {
+    color: hsl(238, 22%, 44%);
+}
+
+.btn-1 {
+    width: 15vw;
+    height: 4vw;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 0.5vw;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-left: 22vw;
+    margin-top: 2vw;
+}
+
+.inp-1 {
+    position: absolute;
+    margin-top: 2vw;
+    width: 21vw;
+    height: 4vw;
+    font-size: 1.3vw;
+    padding: 1vw;
+    border-radius: 0.3vw;
+}
+
+.ills-1 {
+    position: absolute;
+    width: 40vw;
+    margin-left: 45vw;
+    margin-top: -7vw;
+}
+
+.container2 {
+    font-size: 1.3vw;
+    margin-top: 5vw;
+    width: 40vw;
+    height: 20vw;  
+    margin-left: 5vw;
+    margin-top: 20vw;
+}
+
+.description-2 {
+    color: hsl(238, 22%, 44%);
+}
+
+.review {
+    border-radius: 0.5vw;
+    background-color: hsl(240, 75%, 98%);
+    box-shadow: 0px 0px 2vw hsl(0, 0%, 75%);
+    margin-top: 2vw;
+    padding: 1vw;
+    width: 20vw;
+    font-size: 1vw;
+}
+
+.review h4 {
+    padding-top: 1vw;
+    padding-left: 3vw;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: hsl(170, 45%, 43%);
+}
+
+.icon-arrow {
+    position: absolute;
+    margin-left: 12.5vw;
+    margin-top: -1.4vw;
+    width: 1.5vw;
+}
+
+.info {
+    padding-left: 3vw;
+}
+
+.pfp {
+    position: absolute;
+    border-radius: 5vw;
+    width: 2.5vw;
+    margin-top: 1vw;
+}
+
+.ills-2 {
+    position: absolute;
+    width: 40vw;
+    margin-left: 45vw;
+    margin-top: -20vw;
+}
+
+.container3 {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 5vw;
+    width: 100%;
+    height: 20vw;  
+    padding-left: 5vw;
+    padding-top: 5vw;
+    margin-top: 20vw;
+}
+
+.text {
+    position: absolute;
+    width: 40vw;
+}
+
+.btn-2 {
+    width: 15vw;
+    height: 4vw;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 0.5vw;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-left: 55vw;
+    margin-top: 5vw;
+}
+
+
+.inp-2 {
+    position: absolute;
+    margin-left: 55vw;
+    width: 30vw;
+    height: 4vw;
+    font-size: 1.3vw;
+    padding: 1vw;
+    border-radius: 0.3vw;
+}
+
+.container4 {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 5vw;
+    width: 100%;
+    height: 30vw;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    margin-top: -1vw;
+}
+
+.bottom {
+    position: absolute;
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: -3vw;
+}
+
+.bottom-2 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 35vw;
+    margin-top: -3vw;
+}
+
+.phone {
+    position: absolute;
+    margin-left: -2vw;
+    width: 1.5vw;
+}
+
+.email {
+    width: 1.5vw;
+    position: absolute;
+    margin-left: -2vw;
+    margin-top: 2vw;
+}
+
+.socialMedia {
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    margin-left: 65vw;
+    text-decoration: none;
+}
+
+.btm-logo {
+    margin-left: -2vw;
+}
